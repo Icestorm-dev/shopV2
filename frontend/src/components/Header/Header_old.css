@@ -1,0 +1,73 @@
+/* Стили для логотипа */
+.logo {
+  height: 50px; /* Установите необходимую высоту логотипа */
+  width: auto;
+}
+
+/* Стили для информации в центре хедера */
+.header-info {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Стили для иконки телефона */
+.header-info i {
+  margin-right: 8px;
+  color: #007bff;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 767px) {
+  .header-info {
+    display: block;
+    margin-top: 10px;
+  }
+  .navbar-nav {
+    text-align: center;
+    width: 100%;
+  }
+  .navbar-nav .nav-item {
+    margin: 5px 0;
+  }
+}
+
+/* Стили для номера телефона */
+.header-info a.phone-number {
+  color: rgb(51, 122, 183); /* Синий цвет для номера */
+  text-decoration: none; /* Убираем подчеркивание */
+  font-size: 24px; /* Устанавливаем размер шрифта */
+  font-weight: bold; /* Устанавливаем жирное начертание */
+}
+
+.header-info .phone-icon {
+  font-size: 20px; /* Размер иконки */
+  color: red; /* Красный цвет для иконки */
+  margin-right: 10px; /* Отступ между иконкой и текстом */
+}
+
+/* new */
+/* Добавьте это в файл Header.css */
+
+.cart-icon-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.cart-icon-link {
+  position: relative;
+  font-size: 1.5rem;
+  color: inherit;
+}
+
+.cart-quantity {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+}

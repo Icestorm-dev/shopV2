@@ -1,0 +1,54 @@
+# Создаем виртуальное окружение
+python -m venv venv
+
+# Активируем его
+# Для Windows:
+venv\Scripts\activate
+
+# Устанавливаем Django и DRF
+pip install django djangorestframework
+
+# Создаем Django-проект
+django-admin startproject backend
+
+# Переходим в папку проекта
+cd backend
+
+
+python manage.py startapp shop
+
+
+
+
+#после создания модели
+python manage.py makemigrations shop
+python manage.py migrate
+
+
+
+python manage.py createsuperuser
+
+
+
+#запуск
+python manage.py runserver
+
+
+#jwt
+pip install djangorestframework-simplejwt
+
+#cors
+pip install django-cors-headers
+
+#фильтры
+pip install django-filter
+
+#документирование api
+pip install drf-yasg
+
+
+
+
+#миграции
+python .\manage.py makemigrations shop
+python manage.py migrate

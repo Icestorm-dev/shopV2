@@ -1,0 +1,45 @@
+.footer {
+  background-color: white; /* Белый фон */
+  color: #333; /* Темный текст */
+  padding: 20px 0;
+  border-top: 1px solid #ddd; /* Легкая граница сверху */
+  margin-top: auto; /* Это свойство заставит футер прижиматься к низу */
+}
+
+.footer-logo {
+  width: 250px;
+  height: auto;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: #333; /* Черный цвет иконок */
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icon.vk:hover {
+  color: #4c75a3; /* Синий для ВКонтакте */
+}
+
+.social-icon.telegram:hover {
+  color: #0088cc; /* Голубой для Telegram */
+}
+
+.footer-icon {
+  color: #555; /* Темно-серый цвет иконок */
+  margin-right: 5px;
+}
+
+.footer-link {
+  color: rgb(51, 122, 183); /* Синий цвет для ссылки */
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
